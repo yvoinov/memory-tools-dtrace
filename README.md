@@ -7,7 +7,7 @@ Instrumentation scripts are prepared for tracing and profiling process allocatio
 
 To use, copy the scripts and grant execute permissions.
 
-To perform tracing or profiling, call the script using the process ID as an argument.
+To perform tracing or profiling, call the script using the process ID as an argument and let it run for a while.
 
 The scripts run as an infinite loop until interrupted. Profiling scripts print results upon interruption or termination. Tracing scripts print results as they run and continue to run until interrupted or terminated.
 
