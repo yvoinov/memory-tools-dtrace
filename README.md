@@ -12,6 +12,7 @@ To perform tracing or profiling, call the script using the process ID as an argu
 The scripts run as an infinite loop until interrupted. Profiling scripts print results upon interruption or termination. Tracing scripts print results as they run and continue to run until interrupted or terminated.
 
 Example:
+
 ```sh
 # profile-calloc.d 48218
 dtrace: script './profile-calloc.d' matched 6 probes
